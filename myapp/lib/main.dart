@@ -1,6 +1,5 @@
-import 'package:converter/converter.dart';
 import 'package:flutter/material.dart';
-
+import 'Homepage.dart';
  
 
 void main() {
@@ -12,9 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: "Currency Converter",
-      home: ConverterPage() ,
+    return  MaterialApp(
+      title: "Flutter Demo",
+      debugShowCheckedModeBanner: false,
+      home: const Homepage() ,
     );
   }
 }
