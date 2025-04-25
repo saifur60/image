@@ -43,7 +43,9 @@ class Homepage extends StatelessWidget {
         alignment: Alignment.topRight,
         padding: EdgeInsets.all(10),
         margin: EdgeInsets.fromLTRB(120, 50, 50, 20),
-        child: Image(image: AssetImage('assets/flutter.jpg')),
+        child: Image(
+          image: AssetImage('assets/flutter.jpg')
+        ),
       ),
     );
   }
